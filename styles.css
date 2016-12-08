@@ -196,6 +196,30 @@ h4{
   text-align: center;
 }
 
+.bottom-panel-images {
+  display: inline-block;s
+}
+
+.product{
+  display: inline-block;
+}
+
+.product-image {
+  margin: 10px;
+  float: left;
+}
+.product-details {
+  float: left;
+  color: #FFFFFF;
+}
+
+.product-description {
+  clear: left;
+  padding: 10px;
+  background-color: #7DADEA;
+  color: #FFFFFF;
+}
+
 
 
 /*==========FOOTER==========*/
