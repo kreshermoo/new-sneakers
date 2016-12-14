@@ -23,7 +23,7 @@
     </nav>
     <nav class="shopping-nav">
       <ul id="header-shopping-nav">
-        <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a class="nav" href="http://www.google.com">shopping cart</a></li>
+        <li><i class="fa fa-shopping-cart" aria-hidden="true"></i><a class="nav" href="http://www.google.com">shopping cart</a><span id="numberInCart">()</span></li>
         <li><a class="nav" href="http://www.google.com">my account</a></li>
         <li><a class="nav" href="http://www.google.com">help</a></li>
       </ul>
@@ -41,17 +41,17 @@
         These are our quickest sneakers.  Boy! are they quick!  Really, really quick!  Try these out and be amazed!  You won't even believe it! Boy! are they quick!  Really, really quick!  Try these out and be amazed!  You won't even believe it! <a id="float-right" class="dark-gray" href="http://www.google.com">Read The Reviews</a>
       </p>
       <span class="price"><sup>&dollar;</sup>120<sup>00</sup></span>
-      <a class="button" href="http://www.google.com">BUY NOW!</a>
+      <a class="buy-now">BUY NOW!</a>
     </article>
   </section>
 
   <section class="exciting-topic">
     <nav class="details-fit">
       <ul>
-        <li><a class="nav" href="http://www.google.com">product details</a></li>
-        <li><a class="nav" href="http://www.google.com">size &amp fit</a></li>
+        <li><a class="nav" id="product-details-button">product details</a></li>
+        <li><a class="nav" id="size-fit-button">size &amp fit</a></li>
         <li id="exciting-float-right">
-          <a class="nav" href="http://www.google.com">Reviews</a>
+          <a class="nav" id="reviews-button">Reviews</a>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -60,18 +60,20 @@
         </li>
       </ul>
     </nav>
-    <br>
-    <h2>Exciting Topic</h2>
-    <p>Content here</p>
-    <h3>Exciting Topic</h3>
-    <p class=>Content here</p>
-    <br>
-    <h2>Find Your Shoe Size &amp Fit</h2>
-    <p>Content here</p>
-    <br>
-    <h2>What Our Customers Are Saying!</h2>
-    <p>Dont' take our word for it!  Read what our customers have been saying about this product.  We guarantee you won't be disappointed in your purchase.</p>
-    <br>
+    <div id="product-details">
+      <h2>Exciting Topic</h2>
+      <p>Content here</p>
+      <h3>Exciting Topic</h3>
+      <p class=>Content here</p>
+    </div>
+    <div id="size-fit">
+      <h2>Find Your Shoe Size &amp Fit</h2>
+      <p>Content here</p>
+    </div>
+    <div id="reviews">
+      <h2>What Our Customers Are Saying!</h2>
+      <p>Dont' take our word for it!  Read what our customers have been saying about this product.  We guarantee you won't be disappointed in your purchase.</p>
+    </div>
 </section>
 
 <section class="recommended-panel">
@@ -80,20 +82,26 @@
     <div class="product">
       <img class="product-image"src="./images/shoe2.png" alt="a picture of a blue high top sneaker">
       <br>
-      <span>Funny Sneakers</span>
-      <span class="just-float-right"><sup>&dollar;</sup>120<sup>00</sup></span>
+      <span class="bottom-float-left">Funny Sneakers</span>
+      <span class="bottom-float-right"><sup>&dollar;</sup>120<sup>00</sup></span>
+      <br>
+      <span class="bottom-collection-season">SPRING/SUMMER 2017</span>
     </div>
     <div class="product">
       <img class="product-image" src="./images/shoe3.png" alt="a photo of a black athletic sneaker with red accents">
       <br>
-      <span>Nimble Sneakers</span>
-      <span class="just-float-right"><sup>&dollar;</sup>120<sup>00</sup></span>
+      <span class="bottom-float-left">Nimble Sneakers</span>
+      <span class="bottom-float-right"><sup>&dollar;</sup>120<sup>00</sup></span>
+      <br>
+      <span class="bottom-collection-season">SPRING/SUMMER 2017</span>
     </div>
     <div class="product">
       <img class="product-image" src="./images/shoe4.png" alt="a photo of a blue athletic sneaker with orange laces">
       <br>
-      <span>Cute Sneakers</span>
-      <span class="just-float-right"><sup>&dollar;</sup>120<sup>00</sup></span>
+      <span class="bottom-float-left">Cute Sneakers</span>
+      <span class="bottom-float-right"><sup>&dollar;</sup>120<sup>00</sup></span>
+      <br>
+      <span class="bottom-collection-season">SPRING/SUMMER 2017</span>
     </div>
   </div>
 </section>
